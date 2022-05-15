@@ -7,10 +7,10 @@ using Xunit;
 namespace MyProjectXunit
 {
 
-    public class PurchaseTeste
+    public class PurchaseTest
     {
         private readonly IPurchaseService _purchaseService;
-        public PurchaseTeste()
+        public PurchaseTest()
         {
             var service = new ServiceCollection();
             service.AddTransient<IPurchaseService, PurchaseService>();

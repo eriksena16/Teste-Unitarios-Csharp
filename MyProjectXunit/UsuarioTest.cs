@@ -4,7 +4,7 @@ using Xunit;
 
 namespace MyProjectXunit
 {
-    public class UnitTest1
+    public class UsuarioTest
     {
         [Fact]
         public void UsuarioMaiorDeIdade()
